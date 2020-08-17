@@ -1,0 +1,18 @@
+server.port: 8080
+
+management.endpoints.web.exposure.include: "*"
+
+spring.cloud.config.uri: http://localhost:8888
+
+tom.viewItem.limit: 3
+tom.viewItem.time: 1
+tom.addItem.limit: 3
+tom.addItem.time: 1
+dick.viewItem.limit: 3
+dick.viewItem.time: 1
+dick.addItem.limit: 3
+dick.addItem.time: 1
+harry.viewItem.limit: 3
+harry.viewItem.time: 1
+harry.addItem.limit: 3
+harry.addItem.time: 1
